@@ -2031,7 +2031,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Nav"
 });
@@ -19819,12 +19818,6 @@ var render = function() {
               }
             },
             [
-              _c("metadata", [
-                _vm._v(
-                  "Created by potrace 1.15, written by Peter Selinger 2001-2017"
-                )
-              ]),
-              _vm._v(" "),
               _c(
                 "g",
                 { attrs: { transform: "translate(0 512) scale(.1 -.1)" } },
@@ -19837,8 +19830,7 @@ var render = function() {
                   })
                 ]
               )
-            ],
-            1
+            ]
           )
         ])
       ],
