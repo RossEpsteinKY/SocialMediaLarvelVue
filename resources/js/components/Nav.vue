@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white h-12 px-4 flex items-center">
+    <div class="bg-white h-12 px-4 flex items-center border-b border-gray-400 shadow">
         <div class="w-1/3">
             <div class="flex">
                 <router-link class="px-6" to="/">
@@ -62,7 +62,7 @@
 
             </router-link>
 
-      
+
 
         </div>
 
