@@ -1,5 +1,4 @@
 <template>
-    <div>tacos</div>
 </template>
 
 <script>
