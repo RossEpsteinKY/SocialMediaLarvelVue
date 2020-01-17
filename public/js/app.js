@@ -2125,6 +2125,52 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Post"
 });
@@ -20177,40 +20223,162 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    { staticClass: "bg-white rounded shadow w-2/3 mt-6 overflow-hidden" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "px-4 pt-2 flex justify-between text-gray-700 text-sm" },
+        [
+          _c("div", { staticClass: "flex" }, [
+            _c(
+              "svg",
+              {
+                staticClass: "fill-current w-5 h-5",
+                attrs: {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  viewBox: "0 0 24 24"
+                }
+              },
+              [
+                _c("path", {
+                  attrs: {
+                    d:
+                      "M20.8 15.6c.4-.5.6-1.1.6-1.7 0-.6-.3-1.1-.5-1.4.3-.7.4-1.7-.5-2.6-.7-.6-1.8-.9-3.4-.8-1.1.1-2 .3-2.1.3-.2 0-.4.1-.7.1 0-.3 0-.9.5-2.4.6-1.8.6-3.1-.1-4.1-.7-1-1.8-1-2.1-1-.3 0-.6.1-.8.4-.5.5-.4 1.5-.4 2-.4 1.5-2 5.1-3.3 6.1l-.1.1c-.4.4-.6.8-.8 1.2-.2-.1-.5-.2-.8-.2H3.7c-1 0-1.7.8-1.7 1.7v6.8c0 1 .8 1.7 1.7 1.7h2.5c.4 0 .7-.1 1-.3l1 .1c.2 0 2.8.4 5.6.3.5 0 1 .1 1.4.1.7 0 1.4-.1 1.9-.2 1.3-.3 2.2-.8 2.6-1.6.3-.6.3-1.2.3-1.6.8-.8 1-1.6.9-2.2.1-.3 0-.6-.1-.8zM3.7 20.7c-.3 0-.6-.3-.6-.6v-6.8c0-.3.3-.6.6-.6h2.5c.3 0 .6.3.6.6v6.8c0 .3-.3.6-.6.6H3.7zm16.1-5.6c-.2.2-.2.5-.1.7 0 0 .2.3.2.7 0 .5-.2 1-.8 1.4-.2.2-.3.4-.2.6 0 0 .2.6-.1 1.1-.3.5-.9.9-1.8 1.1-.8.2-1.8.2-3 .1h-.1c-2.7.1-5.4-.3-5.4-.3H8v-7.2c0-.2 0-.4-.1-.5.1-.3.3-.9.8-1.4 1.9-1.5 3.7-6.5 3.8-6.7v-.3c-.1-.5 0-1 .1-1.2.2 0 .8.1 1.2.6.4.6.4 1.6-.1 3-.7 2.1-.7 3.2-.2 3.7.3.2.6.3.9.2.3-.1.5-.1.7-.1h.1c1.3-.3 3.6-.5 4.4.3.7.6.2 1.4.1 1.5-.2.2-.1.5.1.7 0 0 .4.4.5 1 0 .3-.2.6-.5 1z"
+                  }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c("p", [_vm._v("User Name and 137 Others")])
+          ]),
+          _vm._v(" "),
+          _vm._m(2)
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "flex justify-between border-1 border-gray-400 m-4" },
+        [
+          _c(
+            "button",
+            {
+              staticClass:
+                "flex justify-center p-2 rounded-lg text-sm text-gray-700 w-full hover:bg-gray-200"
+            },
+            [
+              _c(
+                "svg",
+                {
+                  staticClass: "fill-current w-5 h-5",
+                  attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    viewBox: "0 0 24 24"
+                  }
+                },
+                [
+                  _c("path", {
+                    attrs: {
+                      d:
+                        "M20.8 15.6c.4-.5.6-1.1.6-1.7 0-.6-.3-1.1-.5-1.4.3-.7.4-1.7-.5-2.6-.7-.6-1.8-.9-3.4-.8-1.1.1-2 .3-2.1.3-.2 0-.4.1-.7.1 0-.3 0-.9.5-2.4.6-1.8.6-3.1-.1-4.1-.7-1-1.8-1-2.1-1-.3 0-.6.1-.8.4-.5.5-.4 1.5-.4 2-.4 1.5-2 5.1-3.3 6.1l-.1.1c-.4.4-.6.8-.8 1.2-.2-.1-.5-.2-.8-.2H3.7c-1 0-1.7.8-1.7 1.7v6.8c0 1 .8 1.7 1.7 1.7h2.5c.4 0 .7-.1 1-.3l1 .1c.2 0 2.8.4 5.6.3.5 0 1 .1 1.4.1.7 0 1.4-.1 1.9-.2 1.3-.3 2.2-.8 2.6-1.6.3-.6.3-1.2.3-1.6.8-.8 1-1.6.9-2.2.1-.3 0-.6-.1-.8zM3.7 20.7c-.3 0-.6-.3-.6-.6v-6.8c0-.3.3-.6.6-.6h2.5c.3 0 .6.3.6.6v6.8c0 .3-.3.6-.6.6H3.7zm16.1-5.6c-.2.2-.2.5-.1.7 0 0 .2.3.2.7 0 .5-.2 1-.8 1.4-.2.2-.3.4-.2.6 0 0 .2.6-.1 1.1-.3.5-.9.9-1.8 1.1-.8.2-1.8.2-3 .1h-.1c-2.7.1-5.4-.3-5.4-.3H8v-7.2c0-.2 0-.4-.1-.5.1-.3.3-.9.8-1.4 1.9-1.5 3.7-6.5 3.8-6.7v-.3c-.1-.5 0-1 .1-1.2.2 0 .8.1 1.2.6.4.6.4 1.6-.1 3-.7 2.1-.7 3.2-.2 3.7.3.2.6.3.9.2.3-.1.5-.1.7-.1h.1c1.3-.3 3.6-.5 4.4.3.7.6.2 1.4.1 1.5-.2.2-.1.5.1.7 0 0 .4.4.5 1 0 .3-.2.6-.5 1z"
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "ml-2" }, [_vm._v("Like")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass:
+                "flex justify-center p-2 rounded-lg text-sm text-gray-700 w-full hover:bg-gray-200"
+            },
+            [
+              _c(
+                "svg",
+                {
+                  staticClass: "fill-current w-5 h-5",
+                  attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    viewBox: "0 0 24 24"
+                  }
+                },
+                [
+                  _c("path", {
+                    attrs: {
+                      d:
+                        "M20.3 2H3.7C2 2 .6 3.4.6 5.2v10.1c0 1.7 1.4 3.1 3.1 3.1V23l6.6-4.6h9.9c1.7 0 3.1-1.4 3.1-3.1V5.2c.1-1.8-1.3-3.2-3-3.2zm1.8 13.3c0 1-.8 1.8-1.8 1.8H9.9L5 20.4V17H3.7c-1 0-1.8-.8-1.8-1.8v-10c0-1 .8-1.8 1.8-1.8h16.5c1 0 1.8.8 1.8 1.8v10.1zM6.7 6.7h10.6V8H6.7V6.7zm0 2.9h10.6v1.3H6.7V9.6zm0 2.8h10.6v1.3H6.7v-1.3z"
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "ml-2" }, [_vm._v("Comment")])
+            ]
+          )
+        ]
+      )
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "bg-white rounded shadow w-2/3 mt-6 overflow-hidden" },
-      [
-        _c("div", { staticClass: "flex flex-col p-4" }, [
-          _c("div", [
-            _c("div", [
-              _c("img", {
-                staticClass: "w-10 h-10 object-cover rounded-full",
-                attrs: {
-                  src: "https://placekitten.com/800/900",
-                  alt: "profile image for user"
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("div", [_vm._v("Name User")]),
-              _vm._v(" "),
-              _c("div", [_vm._v("12 Minutes")])
-            ])
+    return _c("div", { staticClass: "flex flex-col p-4" }, [
+      _c("div", { staticClass: "flex items-center" }, [
+        _c("div", { staticClass: "w-8" }, [
+          _c("img", {
+            staticClass: "w-10 h-10 object-cover rounded-full",
+            attrs: {
+              src: "https://placekitten.com/800/900",
+              alt: "profile image for user"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "ml-6" }, [
+          _c("div", { staticClass: "text-sm font-bold" }, [
+            _vm._v("Name User")
           ]),
           _vm._v(" "),
-          _c("div")
+          _c("div", { staticClass: "text-sm text-gray-600" }, [
+            _vm._v("12 Minutes")
+          ])
         ])
-      ]
-    )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mt-4" }, [
+        _c("p", [_vm._v("This is where the post text goes")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-full" }, [
+      _c("img", {
+        staticClass: "w-full",
+        attrs: { src: "https://placekitten.com/1200/900", alt: "post img" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("900 comments")])])
   }
 ]
 render._withStripped = true
