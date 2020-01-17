@@ -4,7 +4,7 @@
 
         <NewPost />
 
-        <Post />
+        <Post v-for="post in posts.data" :key="post.data.post_id" :post="post"/>
 
     </div>
 
@@ -14,6 +14,7 @@
 import NewPost from '../components/NewPost';
 import Post from "../components/Post";
 
+
     export default {
         name: "NewsFeed",
 
@@ -22,6 +23,22 @@ import Post from "../components/Post";
 
             NewPost
 
+        },
+
+        data: () => {
+            return{
+                posts: null,
+            }
+        },
+
+        mounted() {
+            axios.get('/api/posts')
+            .then(res => {
+                this.posts = res.data;
+
+            }).catch(error =>{
+                console.log('Unalbe to fetch posts');
+            })
         }
     }
 
