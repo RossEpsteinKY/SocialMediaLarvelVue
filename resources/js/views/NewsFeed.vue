@@ -4,17 +4,21 @@
 
         <NewPost />
 
+        <Post />
+
     </div>
 
 </template>
 
 <script>
 import NewPost from '../components/NewPost';
+import Post from "../components/Post";
 
     export default {
         name: "NewsFeed",
 
         components: {
+            Post,
 
             NewPost
 
