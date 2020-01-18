@@ -20254,7 +20254,7 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "text-sm text-gray-600" }, [
-              _vm._v("12 Minutes")
+              _vm._v(_vm._s(_vm.post.data.attributes.posted_at))
             ])
           ])
         ]),
@@ -20264,7 +20264,14 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(1),
+      _vm.post.data.attributes.image
+        ? _c("div", { staticClass: "w-full" }, [
+            _c("img", {
+              staticClass: "w-full",
+              attrs: { src: _vm.post.data.attributes.image, alt: "post img" }
+            })
+          ])
+        : _vm._e(),
       _vm._v(" "),
       _c(
         "div",
@@ -20293,7 +20300,7 @@ var render = function() {
             _c("p", [_vm._v("User Name and 137 Others")])
           ]),
           _vm._v(" "),
-          _vm._m(2)
+          _vm._m(1)
         ]
       ),
       _vm._v(" "),
@@ -20377,17 +20384,6 @@ var staticRenderFns = [
           src: "https://placekitten.com/800/900",
           alt: "profile image for user"
         }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-full" }, [
-      _c("img", {
-        staticClass: "w-full",
-        attrs: { src: "https://placekitten.com/1200/900", alt: "post img" }
       })
     ])
   },
